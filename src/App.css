@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 100px;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #root {
+    max-width: 500px;
+    margin: auto ;
+    padding: 0;
+    text-align: center;
+  }
+  .app {
+    width: 90%;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  #root {
+    max-width: 800px;
+    margin: auto ;
+    padding: 10px;
+    text-align: center;
+  }
+  .app {
+    width: 90%;
+    margin-top: 5px;
+  }
+}

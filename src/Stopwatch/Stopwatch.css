@@ -1,0 +1,112 @@
+.Timer {
+   width: 100%;
+   font-size: 6rem;
+   text-align: center;
+   margin-top: 10px;
+}
+.button-group {
+   margin: auto;
+   margin-top: 10px;
+   width: 50%;
+}
+.btn1 {
+   display: grid;
+   grid-template-columns: max-content max-content;
+   margin-bottom: 10px;
+   grid-column-gap: 50%;
+}
+.btn2 {
+   display: grid;
+   grid-template-columns: max-content max-content;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   grid-column-gap: 90%;
+}
+#laps {
+   width: 35%;
+   font-size: large;
+   font-weight: bold;
+   margin: auto;
+   height: 200px;
+   overflow-y: scroll;
+   list-style-type: none;
+   color: brown;
+}
+#laps::-webkit-scrollbar {
+   display: none;
+}
+@media only screen and (max-width: 500px) {
+   /* For mobile phones: */
+   .Timer {
+      font-size: 1.8rem;
+      margin-top: 0;
+      margin-left: 0;
+   }
+   .button-group {
+      margin-top: 10px;
+      width: 30%;
+   }
+   .btn1 {
+      display: grid;
+      grid-template-columns: max-content;
+      grid-row-gap: 10px;
+   }
+   .btn2 {
+      display: grid;
+      grid-template-columns: max-content;
+      grid-row-gap: 10px;
+   }
+   #laps {
+      font-size: medium;
+      font-weight: bold;
+      margin-top:    0px;
+      list-style-type: none;
+      color: brown;
+      height: 300px;
+      width: 70%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+   }
+   #laps::-webkit-scrollbar {
+      display: none;
+      overflow-x: hidden;
+   }
+}
+@media only screen and (max-width: 800px) {
+   /* For mobile phones: */
+   .Timer {
+      font-size: 2.5rem;
+      margin-top: 0;
+   }
+   .button-group {
+      margin-top: 10px;
+      width: 30%;
+   }
+   .btn1 {
+      display: grid;
+      grid-template-columns: max-content;
+      grid-row-gap: 10px;
+      margin-left: 20px;
+   }
+   .btn2 {
+      display: grid;
+      grid-template-columns: max-content;
+      grid-row-gap: 10px;
+      margin-left: 10px;
+   }
+   #laps {
+      font-size: medium;
+      font-weight: bold;
+      margin-top:    0px;
+      list-style-type: none;
+      color: brown;
+      height: 300px;
+      width: 80%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+   }
+   #laps::-webkit-scrollbar {
+      display: none;
+      overflow-x: hidden;
+   }
+}
